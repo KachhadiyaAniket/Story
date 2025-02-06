@@ -1,6 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  reactStrictMode: true,
+  images: {
+    domains: ["cdn.shopify.com"], // Allow images from Shopify CDN
+  },
 };
 
-export default nextConfig;
+export default nextConfig; // Use export default for ESM
