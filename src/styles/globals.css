@@ -13,6 +13,9 @@
     --foreground: #ededed;
   }
 }
+body {
+  margin: 0;
+}
 .px-20 {
   padding-left: 7rem;
   padding-right: 7rem;
